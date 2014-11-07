@@ -1,0 +1,70 @@
+/*
+Stylesheet: SND Bootcamp Test
+Author: Micheala Sosby
+Version: 0.0.1
+
+Colors:
+	Base Yellow: #FFCB44
+
+Index
+	-- Global
+	-- Navbar
+*/
+html, body{
+	background-color:#E8FFF3;}
+/*============================
+	Navbar
+============================*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: '';
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.navbar-container{
+	background-color: #901BFF;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.left-header-nav{
+	float: left;
+	width: 80%;
+}
+
+.left-header-nav li{
+	display:inline;
+	margin: 20px;
+}
+
+.left-header-nav li: last-child, .right-header-nav li: last-child{
+
+	margin-right: 0;
+}
+
+.left-header-nav li: first-child{
+	margin-left: 0;
+}
+
+.right-header-nav{
+	float: left;
+	text-align: right;
+	width: 20%;
+}
+
+.right-header-nav li{
+	display: inline;
+	margin: 20px;
+}
